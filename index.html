@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <title>Tableau de bord covid 19</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body style="margin: 0;">
+
+    <div class="header fixed-top shadow">
+
+        <h3 class="titrePrincipal text-center">
+
+            Header : Cas pratique Tableau de bord covid 19
+            <button class="btn btn-primary d-sm-inline d-md-none">Menu</button>
+        </h3>
+    </div>
+
+    <div class="menuGauche d-none d-md-block">
+        <h3 class="titreMenu">
+            Sidebar: Menu
+        </h3>
+        <ul>
+            <li>
+                <a href="/"> Acceuil </a>
+            </li>
+            <li>
+                <a href="./lien-page-tous-les-pays.html"> Tous les pays </a>
+            </li>
+            <li>
+                <a href="./lien-page-conseils-covid.html"> Conseils Covid </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="contenuPrincipal mt-5">
+        <div class="div_entete mt-5 mt-md-0">
+            <h2>Situation au Maroc</h2>
+            <img id="drapeauMaroc" src="images/drapeau-maroc.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 text-center mb-3">
+                <span class="span_cas h2 d-block">Total des cas </span>
+                <span class="span_cas h2 d-block">15464 </span>
+            </div>
+
+            <div class="col-12 col-md-4 text-center mb-3">
+                <span class="span_cas h2 d-block" style="color: #31C616;">Guérisons</span>
+                <span class="span_cas h2 d-block" style="color: #31C616;">11895</span>
+            </div>
+            <div class="col-12 col-md-4 text-center mb-3">
+                <span class="span_cas h2 d-block" style="color: #FF1414">Décès</span>
+                <span class="span_cas h2 d-block" style="color: #FF1414">244</span>
+            </div>
+        </div>
+        <p class="text_samu">
+            En cas d’urgence composez le numéro vert Allo SAMU :
+            <img src="images/call.png">
+            <span>141</span>
+        </p>
+
+
+        <a href="#" style="color: #38ACC3; font-weight: bold; "> Cliquez pour voir les statistiques
+            de tous les pays</a>
+
+        <h4 style="margin-top: 40px ">Répartition par régions</h4>
+
+        <table class="tableau_cas">
+            <tr>
+                <th>Région</th>
+                <th class="colonne_valeur_pourcent">Nombre de cas confirmés en %</th>
+            </tr>
+            <tr>
+                <td>Casablanca</td>
+                <td class="colonne_valeur_pourcent">25,24 %</td>
+            </tr>
+            <tr class="bleu_ciel">
+                <td>Rabat</td>
+                <td class="colonne_valeur_pourcent">13,16 %</td>
+            </tr>
+            <tr>
+                <td>Marrakech</td>
+                <td class="colonne_valeur_pourcent">17,71 %</td>
+            </tr>
+            <tr class="bleu_ciel">
+                <td>Tanger</td>
+                <td class="colonne_valeur_pourcent">19,42 %</td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="footer ">
+
+        <h3 class="titrePrincipal h5">
+
+            Footer : <span style="color: #38ACC3 ">Copyright BOOTCAM YECE 2020</span>
+
+            <a class="lien_oms" href="https://www.who.int/fr">Le site de
+                l’OMS
+            </a>
+
+        </h3>
+    </div>
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
